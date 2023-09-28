@@ -1,0 +1,58 @@
+.carousel-cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 5rem 10rem 0 10rem;
+}
+
+.carousel-card-green {
+  width: 300px;
+  height: 200px;
+  background-color: var(--primary-green-color);
+  color: var(--secondary-background-color);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.carousel-card-green img {
+  width: 150px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-button-green {
+  background-color: var(--secondary-background-color);
+  border: none;
+  color: var(--primary-green-color);
+  width: 90px;
+  height: 30px;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.carousel-card-green p {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.carousel-card-white {
+  width: 290px;
+  height: 200px;
+  background-color: var(--secondary-background-color);
+  color: var(--main-font-color);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.carousel-card-white img {
+  width: 120px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+}

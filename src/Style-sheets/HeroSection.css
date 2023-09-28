@@ -1,0 +1,81 @@
+.hero-section {
+  background-color: var(--background-color);
+  min-width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  margin-top: 0.5rem;
+  font-weight: 300;
+}
+
+.hero-section-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 10rem 0 10rem;
+  color: var(--main-font-color);
+}
+
+.hero-section-btn-container {
+  display: flex;
+  justify-content: start;
+}
+
+.hero-section-btns {
+  width: 8rem;
+  height: 2.5rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  margin: 1rem 1rem 0 0;
+}
+
+.green-btn {
+  background-color: var(--primary-green-color);
+}
+
+.green-btn a {
+  color: var(--secondary-background-color);
+}
+
+.green-btn a:hover {
+  color: var(--secondary-background-color);
+}
+
+.white-btn {
+  background-color: var(--secondary-background-color);
+  color: var(--primary-green-color);
+}
+
+.white-btn a {
+  color: var(--primary-green-color);
+}
+
+.hero-section-texts {
+  width: 50%;
+  text-align: start;
+  margin-top: 4rem;
+}
+
+.hero-section-texts p {
+  width: 38rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+}
+
+.hero-section-image {
+  width: 50%;
+}
+
+.hero-section-texts h3 {
+  font-size: 1.5rem;
+}
+
+.hero-section-texts h1 {
+  font-size: 5.5rem;
+  margin: 0.5rem 0 2rem 0;
+}
+
+.hero-section-img {
+  width: 580px;
+}
